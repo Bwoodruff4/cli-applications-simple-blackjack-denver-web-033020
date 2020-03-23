@@ -67,7 +67,7 @@ def runner
   # code runner here
   welcome
   hand=initial_round
-  card_total=0
+  card_total=hand
   
   while card_total >=21
     card_total= hit?(card_total)
